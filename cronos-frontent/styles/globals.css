@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  line-height: inherit;
+  background: #111827;
+}
+html,body{
+  overflow-x: hidden;
+}

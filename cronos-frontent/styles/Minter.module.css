@@ -1,0 +1,184 @@
+.actionBtn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #1199fa;
+  border: solid 1.5px #1199fa;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  width: 100%;
+}
+
+
+.actionBtn:hover {
+  color: #fff;
+  background-color: lighten(#1199fa, 10);
+  border-color: lighten(#1199fa, 10);
+  cursor: pointer;
+}
+
+.metamaskBtn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #e7e7e7;
+  border: solid 1.5px #e7e7e7;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.metamaskBtn:hover {
+  color: rgb(0, 0, 0);
+  background-color: lighten(#e7e7e7, 20);
+  border-color: lighten(#e7e7e7, 20);
+}
+
+.actionBtnSecondary {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #e7e7e7;
+  border: solid 1.5px #e7e7e7;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  width: 100%;
+}
+
+.actionBtnSecondary:hover {
+  color: rgb(0, 0, 0);
+  background-color: lighten(#e7e7e7, 20);
+  border-color: lighten(#e7e7e7, 20);
+  cursor: pointer;
+}
+
+.mt1 {
+  margin-top: 1em;
+}
+
+.inputContainer {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-right: 1em;
+  color: #fff;
+  font-size: 13px;
+  background-color: #0f98fa73;
+  border: solid 1.5px rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  width: 100%;
+}
+
+.inputContainer:focus-within {
+  background-color: hsla(205deg, 96%, 52%, 0.452);
+  border: solid 1.5px #1199fa !important;
+}
+
+.inputContainer:active {
+  background-color: hsla(205deg, 96%, 52%, 0.452);
+  border: solid 1.5px #1199fa !important;
+}
+
+.input {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.7em;
+  font-size: 13px;
+  background-color: hsla(205deg, 96%, 52%, 0);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+}
+
+.input:focus {
+  outline: none !important;
+  border: none;
+}
+
+.inputSecndary {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.7em;
+  font-size: 13px;
+  background-color: rgba(15, 152, 250, 0);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+}
+
+.uploadContainer {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-right: 1em;
+  color: #fff;
+  font-size: 13px;
+  background-color: #0f98fa00;
+  border: solid 1.5px #0f98fa73;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  width: 100%;
+}
+
+.uploadContainer:focus-within {
+  background-color: rgba(15, 152, 250, 0);
+  border: solid 1.5px #1199fa;
+}
+
+.uploadContainer:active {
+  background-color: rgba(15, 152, 250, 0);
+  border: solid 1.5px #1199fa;
+  ;
+}
+
+.input::input-placeholder {
+  /* Chrome/Opera/Safari */
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.logo {
+  margin: auto;
+  width: 100%;
+}
+
+.form {
+  width: 20%;
+}
+
+.metamaskLogo {
+  margin-right: 0.8em;
+  width: 150px;
+  padding: 6px;
+}

@@ -1,0 +1,5 @@
+export const inputText = "text"
+export const inputFiles = "file"
+export const inputSubmit = "submit"
+export const inputName = "Name"
+export const inputDescription = "Description"
