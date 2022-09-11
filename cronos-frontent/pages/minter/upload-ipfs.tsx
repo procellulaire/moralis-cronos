@@ -135,11 +135,11 @@ const UploadIPFS: React.FC = (): JSX.Element => {
             let ipfsArray: { path: string; content: unknown; }[] = [];
             let promises = [];
             for (let index = 0; index < ipfsUrls.length; index++) {
-                let paddedHex = (`0000000000000000000000000000000000000000000000000000000000000000${index.toString()}`).substring(-64)
+                //let paddedHex = (`0000000000000000000000000000000000000000000000000000000000000000${index.toString()}`).substring(-64)
                 const element: string = ipfsUrls[index];
                 promises.push(new Promise<void>((res, rej) => {
                     ipfsArray.push({
-                        path: `metadata/${paddedHex}.json`,
+                        path: `metadata/${element.split("images/").pop()?.split(".")[0]}.json`,
                         content: {
                             image: `ipfs://${element.split("ipfs/").pop()}`,
                             name: `${form.name} #${index}`,
