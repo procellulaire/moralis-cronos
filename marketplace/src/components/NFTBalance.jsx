@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useMoralis } from "react-moralis";
 import { Card, Image, Tooltip, Modal, Input, Alert, Spin, Button } from "antd";
 import { useNFTBalance } from "hooks/useNFTBalance";
@@ -33,6 +33,12 @@ function NFTBalance() {
   const listItemFunction = "createMarketItem";
   const ItemImage = Moralis.Object.extend("ItemImages");
 
+  useEffect(() => {
+    
+  console.log("nft balance",NFTBalance)
+    
+  }, [NFTBalance])
+  
   async function list(nft, listPrice) {
     setLoading(true);
     const p = listPrice * ("1e" + 18);
