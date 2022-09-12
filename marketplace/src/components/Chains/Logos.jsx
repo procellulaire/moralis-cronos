@@ -86,7 +86,7 @@ export const CronosLogo = () => (
 // <path class="st2" d="M1358.3,1040H809.5l90.6,241.5l-27.4,271.7h422.6l-27.4-271.7L1358.3,1040z"/>
 // <path class="st2" d="M1610.7,1119.5L1361,1281.4v288.1l-189.3,183.8v85.1l183.8,170.1h153.7l386.9-675L1610.7,1119.5z"/>
 // </svg>
-<img src={cronos} width="25"/>
+<img src={cronos} width="25" height="25" viewBox="0 0 30 30"/>
 );
 
 export const PolygonCurrency = () => (

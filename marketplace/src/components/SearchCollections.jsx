@@ -1,7 +1,22 @@
 import { Select } from 'antd';
 import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
 import { getCollectionsByChain } from "helpers/collections";
+  
+const customStyles = {           
+    option: (base, state) => ({
+      ...base,      
+      color: "#1e2022",
+      backgroundColor: "black",
+      padding: ".5rem 3rem .5rem .5rem",
+      cursor: "pointer",
+    }),       
+    singleValue: (provided, state) => {
+      const opacity = 1;
+      const transition = "opacity 300ms";
 
+      return { ...provided, opacity, transition };
+    },
+  };
 
 function SearchCollections({setInputValue}){
     const { Option } = Select;
@@ -18,8 +33,8 @@ function SearchCollections({setInputValue}){
         <>
         <Select
             showSearch
-            style={{width: "1000px",
-                    marginLeft: "20px" }}
+            style={{width: "1000px",marginLeft: "20px",background:"#111827" }}
+            //style={customStyles}
             placeholder="Find a Collection"
             optionFilterProp="children"
             onChange={onChange}

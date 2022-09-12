@@ -25,6 +25,7 @@ export default function AssetSelector({ setAsset, style }) {
                 alignItems: "center",
                 width: "100%",
                 gap: "8px",
+                color: "white",
               }}
             >
               <Image

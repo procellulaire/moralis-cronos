@@ -8,6 +8,7 @@ import { AvaxLogo, PolygonLogo, BSCLogo, ETHLogo ,CronosLogo} from "./Logos";
 const styles = {
   item: {
     display: "flex",
+    float: 'left',
     alignItems: "center",
     height: "42px",
     fontWeight: "500",
