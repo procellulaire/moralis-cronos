@@ -12,6 +12,8 @@
     "@web3auth/web3auth": "^1.1.4",
     "axios": "^0.27.2",
     "magic-sdk": "^9.0.0",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.0",
     "moralis": "^1.11.0",
     "next": "latest",
     "react-dom": "^17.0.2",
