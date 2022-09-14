@@ -53,6 +53,7 @@ const styles = {
     alignItems: "center",
     fontSize: "15px",
     fontWeight: "600",
+    minWidth:"25%"
   },
   
 };
