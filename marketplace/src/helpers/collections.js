@@ -65,6 +65,14 @@ export const networkCollections = {
       addrs: "0x1A92f7381B9F03921564a437210bB9396471050C",
     },
   ],
+  "0x152": [
+    {
+      image:
+      "https://ipfs.moralis.io:2053/ipfs/QmWkFEY5a8AFJSjMXZpGrKFVVxcUx5vSSSWKY4E4yz2tu8",
+      name: "CroNFTMinter",
+      addrs: "0x9E80BaB862a304ABd56F5171B91AA984b3a65490",
+    },
+  ]
 };
 
 export const getCollectionsByChain = (chain) => networkCollections[chain];

@@ -15,6 +15,7 @@ const styles = {
     fontFamily: "Roboto, sans-serif",
     fontSize: "14px",
     padding: "0 10px",
+    color: "green",
   },
   button: {
     border: "2px solid rgb(231, 234, 243)",
