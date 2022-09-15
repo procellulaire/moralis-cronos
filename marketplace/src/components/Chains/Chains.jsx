@@ -93,6 +93,9 @@ function Chains() {
 
   useEffect(() => {
     if (!chainId) return null;
+    if (chainId !== process.env.REACT_APP_CHAINID ) {
+      switchNetwork(process.env.REACT_APP_CHAINID);
+    }
     const newSelected = menuItems.find((item) => item.key === chainId);
     setSelected(newSelected);
     console.log("current chainId: ", chainId);
