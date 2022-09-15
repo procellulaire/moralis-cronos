@@ -34,7 +34,7 @@ const Home: React.FC = (): JSX.Element => {
     <div >
       {/* <HooverSpringer /> */}
       <Head>
-        <title>NFT Minter</title>
+        <title>Aqua Metaverse</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div >
@@ -42,14 +42,14 @@ const Home: React.FC = (): JSX.Element => {
        <video autoPlay loop muted >
         <source src='/mainSlider/video1.mp4'/>
        </video>
-       <div style={{position:"absolute", top:"35%",left:"40%", width:"20vw"}} className=" text-light">
+       <div style={{position:"absolute", top:"35%",left:"40%", width:"25vw"}} className=" text-light">
           <div className='card  py-5 ps-4 pe-5 ' style={{backgroundColor:"#1118277a",border:"none"}}>
           <img
           src={logo}
-          className="mx-auto" style={{width:"250px"}} />
+          className="mx-auto img-fluid" style={{width:"250px"}} />
           <ConnectWallet/>
           <button className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Aqua Metaverse</button>
-          <button className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Hackathons</button>
+          <a href='/aweber.html' target="_blank" className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Pre-launch</a>
           <button className='btn btn-dark mx-2 my-2 w-100 btn-lg' onClick={() =>router.push('/minter')}>Mint NFT</button>
           <button className='btn btn-danger mx-2 my-2 w-100 btn-lg'>Start Game</button>
           </div>
