@@ -34,7 +34,7 @@ const Home: React.FC = (): JSX.Element => {
     <div >
       {/* <HooverSpringer /> */}
       <Head>
-        <title>Aqua Metaverse</title>
+        <title>AquaMetaverse projet - Moralis Cronos Gaming Hackathon</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div >
@@ -48,7 +48,8 @@ const Home: React.FC = (): JSX.Element => {
           src={logo}
           className="mx-auto img-fluid" style={{width:"250px"}} />
           <ConnectWallet/>
-          <button className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Aqua Metaverse</button>
+          <a href='/index-map1.html' target="_blank" button className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Aqua Metaverse</button>
+          <a href='/unity/Build/index.html' target="_blank" button className='btn btn-dark mx-2 my-2 w-100 btn-lg'>My Aqua Metaverse</button>
           <a href='/aweber.html' target="_blank" className='btn btn-dark mx-2 my-2 w-100 btn-lg'>Pre-launch</a>
           <button className='btn btn-dark mx-2 my-2 w-100 btn-lg' onClick={() =>router.push('/minter')}>Mint NFT</button>
           <button className='btn btn-danger mx-2 my-2 w-100 btn-lg'>Start Game</button>

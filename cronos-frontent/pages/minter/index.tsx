@@ -147,7 +147,7 @@ console.log("metadataurl",metadataurl)
           type={inputSubmit}
           className="btn btn-primary btn-lg w-100 mt-3"
         >
-          Mint
+          Mint NFT on Cronos
         </button>
         <button className='btn btn-light btn-lg w-100 mt-3' onClick={()=>{router.push('/')}}>Back to Menu</button>
         <button

@@ -10,7 +10,7 @@ const Menu: React.FC = (): JSX.Element => {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Aqua Metaverse
+          My Aqua Metaverse 
         </a>
         <button
           className="navbar-toggler"

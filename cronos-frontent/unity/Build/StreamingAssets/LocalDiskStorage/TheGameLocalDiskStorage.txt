@@ -1,0 +1,26 @@
+{
+    "IsRegistered": true,
+    "Gold": 0,
+    "TreasurePrizeDtos": [
+        {
+            "_ownerAddress": "0x9512a1fa0c635f9df58b3ca17f68ad3abf724a4b",
+            "_tokenId": -1,
+            "_metadata": "Title=Worthy Prize|Price=117"
+        },
+        {
+            "_ownerAddress": "0x9512a1fa0c635f9df58b3ca17f68ad3abf724a4b",
+            "_tokenId": -1,
+            "_metadata": "Title=Worthy Prize|Price=69"
+        },
+        {
+            "_ownerAddress": "0x9512a1fa0c635f9df58b3ca17f68ad3abf724a4b",
+            "_tokenId": -1,
+            "_metadata": "Title=Great Prize|Price=57"
+        },
+        {
+            "_ownerAddress": "0x9512a1fa0c635f9df58b3ca17f68ad3abf724a4b",
+            "_tokenId": -1,
+            "_metadata": "Title=Worthy Prize|Price=64"
+        }
+    ]
+}
